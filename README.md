@@ -18,6 +18,7 @@ Start Docker image:
 ```sh
 sudo docker run -ti --privileged -v `realpath sw`:/workdir sw-docker:v1
 ```
+Password is *useruser*
 
 Install an editor **in the container**:
 ```sh
