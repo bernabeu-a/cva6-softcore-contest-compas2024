@@ -40,7 +40,7 @@ Don't forget to **save and quit** (**ctrl+o** to save with nano and **ctrl+x** t
 Modify the riscv-opc.h file under _/util/gcc-toolchain-builder/src/binutils-gdb/include/opcodes/riscv-opc.h_
 
 ```sh
-sudo nano /util/gcc-toolchain-builder/src/binutils-gdb/include/opcodes/riscv-opc.h
+sudo nano /util/gcc-toolchain-builder/src/binutils-gdb/include/opcode/riscv-opc.h
 ```
 Add instruction macros (line 24)
 ```
